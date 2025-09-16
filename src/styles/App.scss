@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+main {
+  min-height: 100vh;
+  background: #0f0f0f; /* رنگ پس‌زمینه زیر تصویر */
+  font-family: $font-main;
+  padding: 18px 0 0;
+  padding-top: 2.5rem;
+  position: relative;
+  /* اگر تصویر پس‌زمینه داری، این‌ها رو فعال کن و مسیرشو عوض کن */
+  background-image: url("../assets/pattern-bg-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+
+  h1 {
+    color: $secondary-color;
+    text-align: center;
+    font-size: 26px;
+    margin: 6px 0 12px;
+    font-weight: 700;
+  }
+}
